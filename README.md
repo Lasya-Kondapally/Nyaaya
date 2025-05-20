@@ -108,34 +108,42 @@ Nyaaya is inspired by digital legal platforms around the world:
 - MongoDB running on default port (`27017`)  
 
 ### 🔄 Step 1: Clone the Repository
-```bash
-git clone https://github.com/your-username/nyaaya.git
-cd NyaayaG160
+
+    git clone https://github.com/your-username/nyaaya.git
+    cd Nyaaya
 
 ### 🖥️ Step 2: Setup Frontend
-```bash
-cd eportal
-npm install
-npm start
+
+    cd eportal
+    npm install
+    npm start
 
 Open http://localhost:3000 in your browser.
 
-🛠️ Step 3: Setup Backend
-bash
-cd ../server
-npm install
-node server.js
+### 🛠️ Step 3: Setup Backend
+
+    cd ../server
+    npm install
+    node server.js
 
 Backend runs on http://localhost:5000
 
-⚙️ Step 4: Configure Environment Variables
-Create a .env file inside the server/ folder with the following content:
+### ⚙️ Step 4: Configure Environment Variables
 
-ini
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/nyaaya
+Create a `.env` file inside the `server/` folder with the following content:
 
-🧪 Testing
-✅ Functional Testing: User roles, case filings, document uploads
+    PORT=5000
+    MONGO_URI=mongodb://localhost:27017/nyaaya
 
-🔄 Integration Testing: Frontend-backend communication
+---
+
+## 🧪 Testing
+
+- ✅ Functional Testing: User roles, case filings, document uploads  
+- 🔄 Integration Testing: Frontend-backend communication  
+
+---
+
+## 🏁 Conclusion
+
+Nyaaya addresses the inefficiencies of the current legal system by offering a streamlined, secure, and user-friendly digital platform. This solution enhances accountability, reduces delays, and ensures a better experience for all stakeholders in the judicial ecosystem.
